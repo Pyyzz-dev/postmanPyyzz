@@ -1,0 +1,16 @@
+- method: 
+get: hiển thị dữ liệu hoặc giao diện
++ get không nhận được dữ liệu truyền lên từ client
+
++ 3 method ở dưới không thể gọi bằng browser
++ để thử kết quả của 3 method dưới sẽ cần dùng postman để test
+post: nhận dữ liệu từ client hoặc thêm mới một dữ liệu 
+put: cập nhật 1 dữ liệu
+delete: xóa 1 dữ liệu
+
+- tên api: class
+router.get("/class"): hiển thị toàn bộ class
+router.get("/class/:id"): hiển thị class theo id
+router.post("/class"): thêm mới một class
+router.put("/class/:id"): sửa một class theo id
+router.delete("/class/:id"): xóa một class theo id
